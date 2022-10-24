@@ -1,0 +1,30 @@
+{
+  "name": "vue3_shop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@better-scroll/core": "^2.4.2",
+    "axios": "^0.27.2",
+    "better-scroll": "^2.4.2",
+    "core-js": "^3.8.3",
+    "request": "^2.88.2",
+    "vant": "^3.5.4",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.10",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "unplugin-vue-components": "^0.21.2"
+  }
+}

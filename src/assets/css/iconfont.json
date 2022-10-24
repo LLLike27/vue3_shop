@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "517496",
+      "name": "user",
+      "font_class": "custom-user",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "698157",
+      "name": "category-normal",
+      "font_class": "categorynormal",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "2261431",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "12865651",
+      "name": "cart",
+      "font_class": "cart",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    }
+  ]
+}
