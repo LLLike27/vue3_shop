@@ -81,7 +81,7 @@
             const onSubmit = ()=>{
                 //先验证
                 if (userinfo.password !=userinfo.password_confirmation){
-                    Notify('两次密码不一致...');
+                    Notify('两次密码不一致');
                 }
                 else {
                     register(userinfo).then(res=>{
