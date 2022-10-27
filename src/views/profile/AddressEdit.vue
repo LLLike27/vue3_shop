@@ -30,9 +30,8 @@
         name: "AddressEdit",
         components: {NavBar},
         setup() {
-            const route = useRoute();
-            const router = useRouter();
-
+            const route = useRoute()
+            const router = useRouter()
             const state = reactive({
                 areaList:{//地区列表
                     province_list:{},
@@ -89,7 +88,6 @@
                                 //对比找到的省份和接口返回的省份是否相等，因为有一些区会重名
                                 if (province[provinceIndex].text == addressDetail.province && cityIndex[1] == addressDetail.city){
                                     _areaCode = id;
-
                                 }
                             }
                         })
