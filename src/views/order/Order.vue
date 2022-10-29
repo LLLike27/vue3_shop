@@ -69,7 +69,12 @@
             onMounted(()=>{
                 onRefresh(); //初始化
             })
-
+            //切换tabs
+            const onChangeTabs =(e)=>{
+                // console.log(e)
+                state.status = e.name;
+                onRefresh();
+            }
             //页面加载中 状态进行切换
             const onRefresh = () => {
                 //顶部refreshing是否处于加载状态，加载过程中不触发load事件
@@ -111,12 +116,7 @@
                     }
                 })
             }
-            //切换tabs
-            const onChangeTabs =(e)=>{
-                // console.log(e)
-                state.status = e.name;
-                onRefresh();
-            }
+
             //到订单详情页
             const goToDetail = (id)=>{
                 router.push({path:'/orderdetail',query:{id}})

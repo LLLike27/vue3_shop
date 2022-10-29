@@ -8,8 +8,8 @@ export function request(config) {
 
     const instance=axios.create({
         // baseURL:'https://api.shop.eduwork.cn',
-        baseURL:'https://shop.api.eduwork.cn',
-        // baseURL:'http://apishop.test',
+        // baseURL:'https://shop.api.eduwork.cn',
+        baseURL:'http://apishop.test',
         timeout:5000
     })
 
